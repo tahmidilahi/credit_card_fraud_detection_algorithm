@@ -37,4 +37,16 @@ Fraudulent Transaction Distribution:
 - Total non-fraudulent transactions: **45,691** 
 - Fraudulent transaction rate in the subset: **9.43%**
 
+**Bar Plot of Fraudulent vs. Non-Fraudulent Transactions by Purchased Method**
 ![1](https://github.com/tahmidilahi/credit_card_fraud_detection_algorithm/assets/170153132/95745d8e-a524-46c0-a69a-ef9f6ac7dc22)
+
+**Pie Diagram of Fraudulent Transactions Percentage by Purchased Methods**
+
+
+**Histogram of Distance from Home (Values < 50) vs Transaction Types**
+
+
+**Correlation Heatmap**
+
+
+## **Accuracy Comparison of Different Machine Learning Algorithms**
