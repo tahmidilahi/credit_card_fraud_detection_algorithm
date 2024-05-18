@@ -35,4 +35,6 @@ Fraudulent Transaction Analysis:
 Fraudulent Transaction Distribution:
 - Total fraudulent transactions: **4,309** 
 - Total non-fraudulent transactions: **45,691** 
-- Fraudulent transaction rate in the subset: **9.43%** 
+- Fraudulent transaction rate in the subset: **9.43%**
+
+![1](https://github.com/tahmidilahi/credit_card_fraud_detection_algorithm/assets/170153132/95745d8e-a524-46c0-a69a-ef9f6ac7dc22)
