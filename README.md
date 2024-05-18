@@ -18,18 +18,19 @@ This project investigates fraudulent activities within a massive dataset of one 
 
 #### Data Preparation and Feature Engineering
 Here's an outline of the techniques employed:
-Distance Measures: We calculated DISTANCE_RATIO to capture changes in transaction locations compared to the previous one. This helps identify unusual travel patterns potentially indicative of fraud. 
-Purchase Price Normalization: To ensure consistency across transactions with varying amounts, RATIO_TO_MEDIAN_PURCHASE_PRICE was normalized using min-max scaling. This creates a standardized RATIO_TO_MEDIAN_PURCHASE_NORMALIZED feature.
-Distance from Home Standardization: DISTANCE_FROM_HOME was standardized by subtracting the mean and dividing by the standard deviation. The resulting DISTANCE_NORMALIZED feature has a mean of 0 and a standard deviation of 1.
-Distance Categorization: To analyze distance-related trends more effectively, the standardized DISTANCE_NORMALIZED feature was segmented into quartiles, forming DISTANCE_CATEGORY. This allows for the creation of binary indicators (DISTANCE_NEAR,      DISTANCE_MEDIUM, DISTANCE_FAR, DISTANCE_VERY_FAR) representing different distance ranges.
-Column Reordering: For improved model compatibility and readability, the FRAUD (target variable) column was moved to the last position.
+  | Distance Measures | We calculated DISTANCE_RATIO to capture changes in transaction locations compared to the previous one. This helps identify unusual travel patterns potentially indicative of fraud | 
+  | Purchase Price Normalization | To ensure consistency across transactions with varying amounts, RATIO_TO_MEDIAN_PURCHASE_PRICE was normalized using min-max scaling. This creates a standardized RATIO_TO_MEDIAN_PURCHASE_NORMALIZED feature |
+  | Distance from Home Standardization | DISTANCE_FROM_HOME was standardized by subtracting the mean and dividing by the standard deviation. The resulting DISTANCE_NORMALIZED feature has a mean of 0 and a standard deviation of 1 |
+  | Distance Categorization | To analyze distance-related trends more effectively, the standardized DISTANCE_NORMALIZED feature was segmented into quartiles, forming DISTANCE_CATEGORY. This allows for the creation of binary indicators (DISTANCE_NEAR,               DISTANCE_MEDIUM, DISTANCE_FAR, DISTANCE_VERY_FAR) representing different distance ranges |
+  | Column Reordering | For improved model compatibility and readability, the FRAUD (target variable) column was moved to the last position |
 
 #### Data Exploration
 A comprehensive data analysis was conducted on a 50,000-transaction subset chosen randomly. This exploration provided insights into the characteristics and distribution of various variables, particularly those related to fraudulent transactions (FRAUD = 1).
 
 Fraudulent Transaction Analysis:
-Subset Overview: 50,000 transactions were randomly selected from the original dataset for this analysis.
+  | Subset Overview | 50,000 transactions were randomly selected from the original dataset for this analysis |
+  
 Fraudulent Transaction Distribution:
-Total fraudulent transactions: 4,309
-Total non-fraudulent transactions: 45,691
-Fraudulent transaction rate in the subset: 9.43%
+  | Total fraudulent transactions | 4,309 |
+  | Total non-fraudulent transactions | 45,691 |
+  | Fraudulent transaction rate in the subset | 9.43% |
