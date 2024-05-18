@@ -41,12 +41,13 @@ Fraudulent Transaction Distribution:
 ![1](https://github.com/tahmidilahi/credit_card_fraud_detection_algorithm/assets/170153132/95745d8e-a524-46c0-a69a-ef9f6ac7dc22)
 
 **Pie Diagram of Fraudulent Transactions Percentage by Purchased Methods**
-
+![2](https://github.com/tahmidilahi/credit_card_fraud_detection_algorithm/assets/170153132/3f03b51b-d3f9-4985-956c-60b05a810594)
 
 **Histogram of Distance from Home (Values < 50) vs Transaction Types**
-
+![3](https://github.com/tahmidilahi/credit_card_fraud_detection_algorithm/assets/170153132/f2cb969a-4609-48ad-9100-0954899ccf7e)
 
 **Correlation Heatmap**
-
+![4](https://github.com/tahmidilahi/credit_card_fraud_detection_algorithm/assets/170153132/e6b6b55b-a62d-4ab3-a6d4-061af44fbc2d)
 
 ## **Accuracy Comparison of Different Machine Learning Algorithms**
+![5](https://github.com/tahmidilahi/credit_card_fraud_detection_algorithm/assets/170153132/ceaa4f12-69ab-449d-85a7-ecb99d3552cd)
