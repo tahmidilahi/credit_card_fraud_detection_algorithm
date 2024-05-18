@@ -18,6 +18,7 @@ This project investigates fraudulent activities within a massive dataset of one 
 
 #### Data Preparation and Feature Engineering
 Here's an outline of the techniques employed:
+  | Feature | Description |
   | ------ |------- |
   | Distance Measures | We calculated DISTANCE_RATIO to capture changes in transaction locations compared to the previous one. This helps identify unusual travel patterns potentially indicative of fraud | 
   | Purchase Price Normalization | To ensure consistency across transactions with varying amounts, RATIO_TO_MEDIAN_PURCHASE_PRICE was normalized using min-max scaling. This creates a standardized RATIO_TO_MEDIAN_PURCHASE_NORMALIZED feature |
