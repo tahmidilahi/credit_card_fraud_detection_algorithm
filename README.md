@@ -1,8 +1,8 @@
-## Credit Card Fraud Detection using Machine Learning Algorithms
+# Credit Card Fraud Detection using Machine Learning Algorithms
 
 Data Source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-#### Dataset Description
+## **Dataset Description**
 | Key Attributes | Description |
 |--------------|-----------|
 | DISTANCE_FROM_HOME | Distance from home where the transaction occurred |
@@ -16,7 +16,7 @@ Data Source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 This project investigates fraudulent activities within a massive dataset of one million credit card transactions. By leveraging machine learning algorithms, we aim to identify key features associated with fraudulent transactions and develop effective prediction models for fraud detection.
 
-#### Data Preparation and Feature Engineering
+## **Data Preparation and Feature Engineering**
 Here's an outline of the techniques employed:
   | Feature | Description |
   | ------ |------- |
@@ -26,13 +26,13 @@ Here's an outline of the techniques employed:
   | Distance Categorization | To analyze distance-related trends more effectively, the standardized DISTANCE_NORMALIZED feature was segmented into quartiles, forming DISTANCE_CATEGORY. This allows for the creation of binary indicators (DISTANCE_NEAR,               DISTANCE_MEDIUM, DISTANCE_FAR, DISTANCE_VERY_FAR) representing different distance ranges |
   | Column Reordering | For improved model compatibility and readability, the FRAUD (target variable) column was moved to the last position |
 
-#### Data Exploration
+## **Data Exploration**
 A comprehensive data analysis was conducted on a 50,000-transaction subset chosen randomly. This exploration provided insights into the characteristics and distribution of various variables, particularly those related to fraudulent transactions (FRAUD = 1).
 
 Fraudulent Transaction Analysis:
-  | Subset Overview | 50,000 transactions were randomly selected from the original dataset for this analysis |
+  -Subset Overview: 50,000 transactions were randomly selected from the original dataset for this analysis 
   
 Fraudulent Transaction Distribution:
-  | Total fraudulent transactions | 4,309 |
-  | Total non-fraudulent transactions | 45,691 |
-  | Fraudulent transaction rate in the subset | 9.43% |
+  -Total fraudulent transactions: **4,309** 
+  -Total non-fraudulent transactions: **45,691** 
+  -Fraudulent transaction rate in the subset: **9.43%** 
