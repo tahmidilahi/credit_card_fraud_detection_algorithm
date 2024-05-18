@@ -52,6 +52,14 @@ Fraudulent Transaction Distribution:
 ## **Accuracy Comparison of Different Machine Learning Algorithms**
 ![5](https://github.com/tahmidilahi/credit_card_fraud_detection_algorithm/assets/170153132/ceaa4f12-69ab-449d-85a7-ecb99d3552cd)
 
+The list of predictors used to determine the target variable (FRAUD) includes:
+
+- DISTANCE_FROM_HOME: Captures the cardholder's distance from their registered address during a transaction.
+- DISTANCE_FROM_LAST_TRANSACTION: Analyzes changes in location between consecutive transactions.
+- ONLINE_ORDER: Indicates whether the transaction occurred online.
+- RATIO_TO_MEDIAN_PURCHASE_NORMALIZED: Represents the ratio of a transaction amount to the median purchase amount, normalized for consistency.
+- DISTANCE_VERY_FAR: Categorical feature indicating transactions very far from the cardholder's home.
+  
 Our analysis revealed that the Decision Tree classifier achieved the highest overall accuracy (96.75%) for fraud detection. However, it's crucial to consider class imbalance. While all models excelled at identifying non-fraudulent transactions, they exhibited varying performance for fraudulent cases. The Decision Tree again displayed a commendable balance, with a precision of 0.82 and recall of 0.81 for fraudulent transactions. Logistic Regression also demonstrated strength in this area (precision: 0.79).
 
 These findings highlight the trade-offs between different algorithms and the importance of considering class imbalance in fraud detection.
